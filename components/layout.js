@@ -24,7 +24,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <Logo size={{w:600,h:314}} />
-            <h1 className={utilStyles.heading2Xl}>{topPageMessage}</h1>
+            <h1 className={utilStyles.heading2Xl}> Shara - {topPageMessage}</h1>
           </>
         ) : (
           <>
